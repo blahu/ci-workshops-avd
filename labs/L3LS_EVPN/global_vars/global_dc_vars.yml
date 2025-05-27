@@ -43,12 +43,12 @@ mgmt_interface_vrf: default
 # NTP Servers IP or DNS name, first NTP server will be preferred, and sourced from Management VRF
 ntp:
   servers:
-    - name: 192.168.0.123
+    - name: 192.168.0.1
       iburst: true
       local_interface: Management0
 
 # Domain/DNS
-dns_domain: atd.lab
+custom_structured_configuration_dns_domain: atd.lab
 
 # TerminAttr
 daemon_terminattr:
