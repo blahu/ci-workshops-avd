@@ -33,7 +33,7 @@ s1-brdr1,VerifySTPCounters,success,,Verifies there is no errors in STP BPDU pack
 s1-brdr1,VerifyAgentLogs,success,,Verifies there are no agent crash reports.,System
 s1-brdr1,VerifyCoredump,success,,Verifies there are no core dump files.,System
 s1-brdr1,VerifyFileSystemUtilization,success,,Verifies that no partition is utilizing more than 75% of its disk space.,System
-s1-brdr1,VerifyMemoryUtilization,failure,Device has reported a high memory usage - Expected: < 75% Actual: 91.63%,Verifies whether the memory utilization is below 75%.,System
+s1-brdr1,VerifyMemoryUtilization,failure,Device has reported a high memory usage - Expected: < 75% Actual: 91.71%,Verifies whether the memory utilization is below 75%.,System
 s1-brdr1,VerifyNTP,failure,NTP status mismatch - Expected: synchronised Actual: NTP starting...,Verifies if NTP is synchronised.,System
 s1-brdr1,VerifyReloadCause,failure,"Invalid reload cause -  Expected: 'Reload requested by the user.', 'Reload requested after FPGA upgrade' Actual: 'System reloaded due to Zero Touch Provisioning'",Verifies the last reload cause of the device.,System
 s1-brdr2,VerifyBFDPeersHealth,success,,Verifies the health of IPv4 BFD peers across all VRFs.,BFD
@@ -70,7 +70,7 @@ s1-brdr2,VerifySTPCounters,success,,Verifies there is no errors in STP BPDU pack
 s1-brdr2,VerifyAgentLogs,success,,Verifies there are no agent crash reports.,System
 s1-brdr2,VerifyCoredump,success,,Verifies there are no core dump files.,System
 s1-brdr2,VerifyFileSystemUtilization,success,,Verifies that no partition is utilizing more than 75% of its disk space.,System
-s1-brdr2,VerifyMemoryUtilization,failure,Device has reported a high memory usage - Expected: < 75% Actual: 91.58%,Verifies whether the memory utilization is below 75%.,System
+s1-brdr2,VerifyMemoryUtilization,failure,Device has reported a high memory usage - Expected: < 75% Actual: 91.45%,Verifies whether the memory utilization is below 75%.,System
 s1-brdr2,VerifyNTP,failure,NTP status mismatch - Expected: synchronised Actual: NTP starting...,Verifies if NTP is synchronised.,System
 s1-brdr2,VerifyReloadCause,failure,"Invalid reload cause -  Expected: 'Reload requested by the user.', 'Reload requested after FPGA upgrade' Actual: 'System reloaded due to Zero Touch Provisioning'",Verifies the last reload cause of the device.,System
 s1-leaf1,VerifyBFDPeersHealth,success,,Verifies the health of IPv4 BFD peers across all VRFs.,BFD
@@ -107,7 +107,7 @@ s1-leaf1,VerifySTPCounters,success,,Verifies there is no errors in STP BPDU pack
 s1-leaf1,VerifyAgentLogs,success,,Verifies there are no agent crash reports.,System
 s1-leaf1,VerifyCoredump,success,,Verifies there are no core dump files.,System
 s1-leaf1,VerifyFileSystemUtilization,success,,Verifies that no partition is utilizing more than 75% of its disk space.,System
-s1-leaf1,VerifyMemoryUtilization,failure,Device has reported a high memory usage - Expected: < 75% Actual: 91.62%,Verifies whether the memory utilization is below 75%.,System
+s1-leaf1,VerifyMemoryUtilization,failure,Device has reported a high memory usage - Expected: < 75% Actual: 91.48%,Verifies whether the memory utilization is below 75%.,System
 s1-leaf1,VerifyNTP,failure,NTP status mismatch - Expected: synchronised Actual: NTP starting...,Verifies if NTP is synchronised.,System
 s1-leaf1,VerifyReloadCause,failure,"Invalid reload cause -  Expected: 'Reload requested by the user.', 'Reload requested after FPGA upgrade' Actual: 'System reloaded due to Zero Touch Provisioning'",Verifies the last reload cause of the device.,System
 s1-leaf2,VerifyBFDPeersHealth,success,,Verifies the health of IPv4 BFD peers across all VRFs.,BFD
@@ -144,7 +144,7 @@ s1-leaf2,VerifySTPCounters,success,,Verifies there is no errors in STP BPDU pack
 s1-leaf2,VerifyAgentLogs,success,,Verifies there are no agent crash reports.,System
 s1-leaf2,VerifyCoredump,success,,Verifies there are no core dump files.,System
 s1-leaf2,VerifyFileSystemUtilization,success,,Verifies that no partition is utilizing more than 75% of its disk space.,System
-s1-leaf2,VerifyMemoryUtilization,failure,Device has reported a high memory usage - Expected: < 75% Actual: 91.42%,Verifies whether the memory utilization is below 75%.,System
+s1-leaf2,VerifyMemoryUtilization,failure,Device has reported a high memory usage - Expected: < 75% Actual: 91.76%,Verifies whether the memory utilization is below 75%.,System
 s1-leaf2,VerifyNTP,failure,NTP status mismatch - Expected: synchronised Actual: NTP starting...,Verifies if NTP is synchronised.,System
 s1-leaf2,VerifyReloadCause,failure,"Invalid reload cause -  Expected: 'Reload requested by the user.', 'Reload requested after FPGA upgrade' Actual: 'System reloaded due to Zero Touch Provisioning'",Verifies the last reload cause of the device.,System
 s1-leaf3,VerifyBFDPeersHealth,success,,Verifies the health of IPv4 BFD peers across all VRFs.,BFD
@@ -180,7 +180,7 @@ s1-leaf3,VerifySTPCounters,success,,Verifies there is no errors in STP BPDU pack
 s1-leaf3,VerifyAgentLogs,success,,Verifies there are no agent crash reports.,System
 s1-leaf3,VerifyCoredump,success,,Verifies there are no core dump files.,System
 s1-leaf3,VerifyFileSystemUtilization,success,,Verifies that no partition is utilizing more than 75% of its disk space.,System
-s1-leaf3,VerifyMemoryUtilization,failure,Device has reported a high memory usage - Expected: < 75% Actual: 91.70%,Verifies whether the memory utilization is below 75%.,System
+s1-leaf3,VerifyMemoryUtilization,failure,Device has reported a high memory usage - Expected: < 75% Actual: 91.54%,Verifies whether the memory utilization is below 75%.,System
 s1-leaf3,VerifyNTP,failure,NTP status mismatch - Expected: synchronised Actual: NTP starting...,Verifies if NTP is synchronised.,System
 s1-leaf3,VerifyReloadCause,failure,"Invalid reload cause -  Expected: 'Reload requested by the user.', 'Reload requested after FPGA upgrade' Actual: 'System reloaded due to Zero Touch Provisioning'",Verifies the last reload cause of the device.,System
 s1-leaf4,VerifyBFDPeersHealth,success,,Verifies the health of IPv4 BFD peers across all VRFs.,BFD
@@ -216,7 +216,7 @@ s1-leaf4,VerifySTPCounters,success,,Verifies there is no errors in STP BPDU pack
 s1-leaf4,VerifyAgentLogs,success,,Verifies there are no agent crash reports.,System
 s1-leaf4,VerifyCoredump,success,,Verifies there are no core dump files.,System
 s1-leaf4,VerifyFileSystemUtilization,success,,Verifies that no partition is utilizing more than 75% of its disk space.,System
-s1-leaf4,VerifyMemoryUtilization,failure,Device has reported a high memory usage - Expected: < 75% Actual: 91.72%,Verifies whether the memory utilization is below 75%.,System
+s1-leaf4,VerifyMemoryUtilization,failure,Device has reported a high memory usage - Expected: < 75% Actual: 91.43%,Verifies whether the memory utilization is below 75%.,System
 s1-leaf4,VerifyNTP,failure,NTP status mismatch - Expected: synchronised Actual: NTP starting...,Verifies if NTP is synchronised.,System
 s1-leaf4,VerifyReloadCause,failure,"Invalid reload cause -  Expected: 'Reload requested by the user.', 'Reload requested after FPGA upgrade' Actual: 'System reloaded due to Zero Touch Provisioning'",Verifies the last reload cause of the device.,System
 s1-spine1,VerifyBFDPeersHealth,success,,Verifies the health of IPv4 BFD peers across all VRFs.,BFD
@@ -246,7 +246,7 @@ s1-spine1,VerifySTPCounters,success,,Verifies there is no errors in STP BPDU pac
 s1-spine1,VerifyAgentLogs,success,,Verifies there are no agent crash reports.,System
 s1-spine1,VerifyCoredump,success,,Verifies there are no core dump files.,System
 s1-spine1,VerifyFileSystemUtilization,success,,Verifies that no partition is utilizing more than 75% of its disk space.,System
-s1-spine1,VerifyMemoryUtilization,failure,Device has reported a high memory usage - Expected: < 75% Actual: 91.62%,Verifies whether the memory utilization is below 75%.,System
+s1-spine1,VerifyMemoryUtilization,failure,Device has reported a high memory usage - Expected: < 75% Actual: 91.49%,Verifies whether the memory utilization is below 75%.,System
 s1-spine1,VerifyNTP,failure,NTP status mismatch - Expected: synchronised Actual: NTP starting...,Verifies if NTP is synchronised.,System
 s1-spine1,VerifyReloadCause,failure,"Invalid reload cause -  Expected: 'Reload requested by the user.', 'Reload requested after FPGA upgrade' Actual: 'System reloaded due to Zero Touch Provisioning'",Verifies the last reload cause of the device.,System
 s1-spine2,VerifyBFDPeersHealth,success,,Verifies the health of IPv4 BFD peers across all VRFs.,BFD
@@ -276,6 +276,6 @@ s1-spine2,VerifySTPCounters,success,,Verifies there is no errors in STP BPDU pac
 s1-spine2,VerifyAgentLogs,success,,Verifies there are no agent crash reports.,System
 s1-spine2,VerifyCoredump,success,,Verifies there are no core dump files.,System
 s1-spine2,VerifyFileSystemUtilization,success,,Verifies that no partition is utilizing more than 75% of its disk space.,System
-s1-spine2,VerifyMemoryUtilization,failure,Device has reported a high memory usage - Expected: < 75% Actual: 91.43%,Verifies whether the memory utilization is below 75%.,System
+s1-spine2,VerifyMemoryUtilization,failure,Device has reported a high memory usage - Expected: < 75% Actual: 91.48%,Verifies whether the memory utilization is below 75%.,System
 s1-spine2,VerifyNTP,failure,NTP status mismatch - Expected: synchronised Actual: NTP starting...,Verifies if NTP is synchronised.,System
 s1-spine2,VerifyReloadCause,failure,"Invalid reload cause -  Expected: 'Reload requested by the user.', 'Reload requested after FPGA upgrade' Actual: 'System reloaded due to Zero Touch Provisioning'",Verifies the last reload cause of the device.,System
